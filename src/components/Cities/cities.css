@@ -1,0 +1,143 @@
+.cities {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+    max-width: 1440px;
+    gap: 20px;
+    padding: 80px 0;
+  }
+  
+  .citiesContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+  
+  .citiesImageContainer {
+    position: relative;
+  }
+  
+  .citiesBackgroundLeft {
+    position: absolute;
+    z-index: -1;
+    opacity: 0.6;
+    top: 0;
+    left: -7px;
+  }
+  .citiesBackgroundCentered {
+    position: absolute;
+    transform: rotate(-90deg);
+    z-index: -1;
+    opacity: 0.6;
+    top: -10px;
+    left: -20px;
+  }
+  .citiesBackgroundRight {
+    position: absolute;
+    transform: rotate(-180deg);
+    z-index: -1;
+    opacity: 0.6;
+    left: -5px;
+  }
+  
+  .citiesTextContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .citiesTitle {
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 5px;
+    text-align: center;
+  }
+  
+  .citiesText {
+    text-align: center;
+    line-height: 25px;
+    font-size: 16px;
+    width: 100%;
+    height: 150px;
+  }
+
+  .citiesButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 55px;
+    background-color: #E7816B;
+    color: #fff;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+
+  .citiesButton:hover {
+    background-color: #FFAD9B;
+  }
+
+  /* ----------------- MEDIA QUERIES ----------------- */
+
+@media screen and (max-width: 768px) {
+    .cities {
+      flex-direction: column;
+      gap: 80px;
+      padding-top: 0;
+      padding-bottom: 100px;
+    }
+  
+    .citiesContent {
+        justify-content: center;
+        gap: 40px;
+    }
+  
+    .citiesTextContainer {
+      display: flex;
+      flex-direction: column;
+      gap: 25px;
+    }
+  
+    .citiesTitle {
+      width: 100%;
+      text-align: center;
+    }
+    .citiesText {
+      width: 100%;
+      text-align: left;
+      height: auto;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .cities {
+      gap: 75px;
+      padding: 100px 0;
+    }
+  
+    .citiesContent {
+      flex-direction: column;
+    }
+  
+    .citiesTextContainer {
+      gap: 30px;
+    }
+  
+    .citiesTitle {
+      text-align: center;
+    }
+    .citiesText {
+      width: 85%;
+      text-align: center;
+      font-size: 15px;
+    }
+  }
+  

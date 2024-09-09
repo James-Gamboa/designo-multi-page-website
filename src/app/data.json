@@ -1,0 +1,168 @@
+
+
+  {
+    "web": {
+      "projects": [
+        {
+          "name": "EXPRESS",
+          "images": {
+            "jpg": "/assets/web-design/desktop/image-express.jpg"
+          },
+          "description": "A multi-carrier shipping website for ecommerce businesses"
+        },
+        {
+          "name": "TRANSFER",
+          "images": {
+            "jpg": "/assets/web-design/desktop/image-transfer.jpg"
+          },
+          "description": "Site for low-cost money transfers and sending money within seconds"
+        },
+        {
+          "name": "PHOTON",
+          "images": {
+            "jpg": "/assets/web-design/desktop/image-photon.jpg"
+          },
+          "description": "A state-of-the-art music player with high-resolution audio and DSP effects"
+        },
+        {
+          "name": "BUILDER",
+          "images": {
+            "jpg": "/assets/web-design/desktop/image-builder.jpg"
+          },
+          "description": "Connects users with local contractors based on their location"
+        },
+        {
+          "name": "BLOGR",
+          "images": {
+            "jpg": "/assets/web-design/desktop/image-blogr.jpg"
+          },
+          "description": "Blogr is a platform for creating an online blog or publication"
+        },
+        {
+          "name": "CAMP",
+          "images": {
+            "jpg": "/assets/web-design/desktop/image-camp.jpg"
+          },
+          "description": "Get expert training in coding, data, design, and digital marketing"
+        }
+      ],
+      "others": [
+        {
+          "images": "/assets/home/desktop/image-app-design.jpg",
+          "name": "APP DESIGN",
+          "slug": "/app-design"
+        },
+        {
+          "images": "/assets/home/desktop/image-graphic-design.jpg",
+          "name": "GRAPHIC DESIGN",
+          "slug": "/graphic-design"
+        }
+      ],
+      "banner": [
+        {
+          "title": "Web Design",
+          "description": "We build websites that serve as powerful marketing tools and bring memorable brand experiences."
+        }
+      ]
+    },
+    "app": {
+      "projects": [
+        {
+          "name": "AIR FILTER",
+          "images": {
+            "jpg": "/assets/app-design/desktop/image-airfilter.jpg"
+          },
+          "description": "Solving the problem of poor indoor air quality by filtering the air"
+        },
+        {
+          "name": "EYECAM",
+          "images": {
+            "jpg": "/assets/app-design/desktop/image-eyecam.jpg"
+          },
+          "description": "Product that lets you edit your favorite photos and videos at any time"
+        },
+        {
+          "name": "FACEIT",
+          "images": {
+            "jpg": "/assets/app-design/desktop/image-faceit.jpg"
+          },
+          "description": "Get to meet your favorite internet superstar with the faceit app"
+        },
+        {
+          "name": "TODO",
+          "images": {
+            "jpg": "/assets/app-design/desktop/image-todo.jpg"
+          },
+          "description": "A todo app that features cloud sync with light and dark mode"
+        },
+        {
+          "name": "LOOPSTUDIOS",
+          "images": {
+            "jpg": "/assets/app-design/desktop/image-loopstudios.jpg"
+          },
+          "description": "A VR experience app made for Loopstudios"
+        }
+      ],
+      "others": [
+        {
+          "images": "/assets/home/desktop/image-web-design-large.jpg",
+          "name": "WEB DESIGN",
+          "slug": "/web-design"
+        },
+        {
+          "images": "/assets/home/desktop/image-graphic-design.jpg",
+          "name": "GRAPHIC DESIGN",
+          "slug": "/graphic-design"
+        }
+      ],
+      "banner": [
+        {
+          "title": "App Design",
+          "description": "Our mobile designs bring intuitive digital solutions to your customers right at their fingertips."
+        }
+      ]
+    },
+    "graphic": {
+      "projects": [
+        {
+          "name": "TIM BROWN",
+          "images": {
+            "jpg": "/assets/graphic-design/desktop/image-change.jpg"
+          },
+          "description": "A book cover designed for Tim Brown’s new release, ‘Change’"
+        },
+        {
+          "name": "BOXED WATER",
+          "images": {
+            "jpg": "/assets/graphic-design/desktop/image-boxed-water.jpg"
+          },
+          "description": "A simple packaging concept made for Boxed Water"
+        },
+        {
+          "name": "SCIENCE !",
+          "images": {
+            "jpg": "/assets/graphic-design/desktop/image-science.jpg"
+          },
+          "description": "A poster made in collaboration with the Federal Art Project"
+        }
+      ],
+      "others": [
+        {
+          "images": "/assets/home/desktop/image-web-design-large.jpg",
+          "name": "WEB DESIGN",
+          "slug": "/web-design"
+        },
+        {
+          "images": "/assets/home/desktop/image-app-design.jpg",
+          "name": "APP DESIGN",
+          "slug": "/app-design"
+        }
+      ],
+      "banner": [
+        {
+          "title": "Graphic Design",
+          "description": "We deliver eye-catching branding materials that are tailored to meet your business objectives."
+        }
+      ]
+    }
+  }

@@ -1,0 +1,98 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    cursor: pointer;
+    max-width: 450px;
+    transition: transform 0.1s ease-in-out;
+    width: 100%;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.card:hover .cardContent {
+    background-color: #E7816B;
+    color: #fff;
+}
+
+.card:hover .cardTitle {
+    color: #fff;
+}
+
+.cardImage {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    object-fit: cover;
+}
+
+.cardContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    background-color: #FDF3F0;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    gap: 10px;
+    min-height: 185px;
+    width: 100%;
+}
+
+.cardTitle {
+    font-weight: 500;
+    color: #E7816B;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+
+.cardText {
+    text-align: center;
+    width: 80%;
+}
+
+@media screen and (max-width: 768px) {
+    .card {
+        flex-direction: row;
+        width: 100%;
+        max-width: none;
+    }
+
+    .cardImage {
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 15px;
+    }
+
+    .cardContent {
+        width: 100%;
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 15px;
+        min-height: none;
+    }
+}
+
+
+/* ----------------- MEDIA QUERIES ----------------- */
+
+@media screen and (max-width: 480px) {
+    .card {
+        flex-direction: column;
+        width: 100%;
+        max-width: none;
+    }
+
+    .cardImage {
+        border-top-right-radius: 15px;
+        border-bottom-left-radius: 0;
+    }
+
+    .cardContent {
+        width: 100%;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 15px;
+    }
+}

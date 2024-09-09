@@ -1,0 +1,80 @@
+.categoriesContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    gap: 20px;
+    position: relative;
+    height: 300px;
+    cursor: pointer;
+}
+
+.categoriesContainer:hover .categoriesOverlay {
+    background-color: #E7816B;
+    opacity: 0.8;
+}
+
+.categoriesOverlay {
+    position: absolute;
+    background-color: #000;
+    inset: 0;
+    border-radius: 15px;
+    opacity: 0.5;
+}
+
+.categoriesImage {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    z-index: -1;
+    object-fit: cover;
+}
+
+.categoriesTitle {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 400;
+    z-index: 2;
+    text-align: center;
+}
+
+.categoriesContent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    z-index: 2;
+    color: #fff;
+    letter-spacing: 5px;
+    font-size: 15px;
+}
+
+
+/* ----------------- MEDIA QUERIES ----------------- */
+
+@media screen and (max-width: 1024px) {
+    .categoriesContainer {
+        height: 230px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .categoriesContainer {
+        width: 100%;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .categoriesContainer {
+        height: 250px;
+        gap: 10px;
+    }
+
+    .categoriesTitle {
+        font-size: 28px;
+    }
+}
