@@ -85,7 +85,6 @@
     background-color: #FFAD9B;
   }
 
-  /* ----------------- MEDIA QUERIES ----------------- */
 
 @media screen and (max-width: 768px) {
     .cities {

@@ -11,8 +11,6 @@ export default function Home() {
       <div className={styles.home}>
         <Navbar />
 
-        {/* ---------  HERO SECTION --------- */}
-
         <section className={styles.heroContainer}>
           <div className={styles.heroContent}>
             <h1 className={styles.heroTitle}>Award-winning custom designs and digital branding solutions</h1>
@@ -40,7 +38,6 @@ export default function Home() {
           className={styles.backgroundImageLeft}
         />
 
-        {/* --------- CATEGORY SECTION --------- */}
 
         <section className={styles.category} id="service">
           
@@ -89,7 +86,6 @@ export default function Home() {
           className={styles.backgroundImageRight}
         />
         
-        {/* --------- SKILLS SECTION --------- */}
           
         <section className={styles.skills}>
           <div className={styles.skillsContent}>

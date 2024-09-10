@@ -5,7 +5,6 @@
   padding: 0 150px;
 }
 
-/* ----------------- BACKRGOUND IMAGE ----------------- */
 
 .backgroundImageLeft {
   position: absolute;
@@ -22,7 +21,6 @@
   transform: rotate(180deg);
 }
 
-/* ----------------- HERO SECTION ----------------- */
 
 .heroContainer {
   display: flex;
@@ -69,7 +67,6 @@
   top: -45px;
 }
 
-/* ---------------- CATEGORY SECTION  ----------------- */
 
 .category {
   display: flex;
@@ -181,7 +178,6 @@ div:has( ~ .categoryContent:hover) {
 }
 
 
-/* ----------------- SKILLS SECTION ----------------- */
 
 .skills {
   display: flex;
@@ -252,7 +248,6 @@ div:has( ~ .categoryContent:hover) {
 }
 
 
-/* ----------------- MEDIA QUERIES ----------------- */
 
 @media screen and (max-width: 1024px) {
 
@@ -360,7 +355,6 @@ div:has( ~ .categoryContent:hover) {
 }
 
 
-/* ----------------- MEDIA QUERIES SECTION CATEGORY ----------------- */
 
 @media screen and (max-width: 768px) {
   .category {
@@ -400,8 +394,6 @@ div:has( ~ .categoryContent:hover) {
 
 }
 
-
-/* ----------------- MEDIA QUERIES SECTION SKILLS ----------------- */
 
 @media screen and (max-width: 768px) {
   .skills {
