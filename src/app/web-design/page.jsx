@@ -1,19 +1,18 @@
 "use client"
 import data from "../data.json"
-import "../web-design/pages.css"
-import Navbar from "@/components/Navbar/Navbar"
-import Card from "@/components/Card/Card"
+import "./pages.css"
+import Navbar from "../../components/Navbar/Navbar"
+import Card from "../../components/Card/Card"
 import Image from "next/image"
-import Categories from "@/components/Categories/Categories"
-import Footer from "@/components/Footer/Footer"
-import Banner from "@/components/Banner/Banner"
+import Categories from "../../components/Categories/Categories"
+import Footer from "../../components/Footer/Footer"
+import Banner from "../../components/Banner/Banner"
 
-export default function GraphicDesign() {
+export default function WebDesign() {
 
     return(
         <div className="pagesBase">
             <Navbar/>
-
             <Image 
              src="/assets/shared/desktop/bg-pattern-leaf.svg"
              width={1000}
@@ -21,24 +20,18 @@ export default function GraphicDesign() {
              alt="Backrgound image"
              className="pageBackground"
             />
-
-            <Banner props={data.graphic.banner}/>
-
+            <Banner props={data.web.banner}/>
             <div className="cardContainer">
-            {data.graphic.projects.map((project, index) => (
+            {data.web.projects.map((project, index) => (
                 <Card key={index} props={project}/>
             ))}
             </div>
-
             <div className="categories">
-                {data.graphic.others.map((category, index) => (
+                {data.web.others.map((category, index) => (
                     <Categories key={index} props={category} />
                 ))}
             </div>
-
             <Footer />
-
         </div>
-
     )
 }

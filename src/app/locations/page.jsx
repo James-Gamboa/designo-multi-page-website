@@ -1,13 +1,13 @@
-import Navbar from "@/components/Navbar/Navbar"
+import Navbar from "../../components/Navbar/Navbar"
 import "./locations.css"
 import Image from "next/image"
-import Footer from "@/components/Footer/Footer"
+import Footer from "../../components/Footer/Footer"
 
 export default function locations() {
+    
     return (
         <div className="locations">
             <Navbar />
-            
             <div className="locationsGlobal">
                 <div className="locationsContainer" id="canada">
                     <div className="locationsContent">
@@ -19,15 +19,13 @@ export default function locations() {
                                 <p>3886 Wellington Street</p>
                                 <p>Toronto, Ontario M9C 3J5</p>
                             </div>
-
                             <div className="adressContent">
                                 <p className="adressTitle">Contact</p>
                                 <p>P : +1 253-863-8967</p>
-                                <p>M : contact@designo.co</p>
+                                <p>M : contact..designo.co</p>
                             </div>
                         </div>
                     </div>
-
                     <picture className="locationsPictureContainer">
                         <source media="(max-width: 768px)" srcSet="/assets/locations/tablet/image-map-canada.png"/>
                         <Image
@@ -39,7 +37,6 @@ export default function locations() {
                         />
                     </picture>
                 </div>
-
                 <div className="locationsContainerReverse" id="australia">
                     <div className="locationsContent">
                         <p className="locationsTitle">Australia</p>
@@ -50,15 +47,13 @@ export default function locations() {
                                 <p>19 Balonne Street</p>
                                 <p>New South Wales 2443</p>
                             </div>
-
                             <div className="adressContent">
                                 <p className="adressTitle">Contact</p>
                                 <p>P : (02) 6720 9092</p>
-                                <p>M : contact@designo.au</p>
+                                <p>M : contact..designo.au</p>
                             </div>
                         </div>
                     </div>
-
                     <picture className="locationsPictureContainer">
                         <source media="(max-width: 768px)" srcSet="/assets/locations/tablet/image-map-australia.png"/>
                         <Image
@@ -70,11 +65,9 @@ export default function locations() {
                         />
                     </picture>
                 </div>
-
                 <div className="locationsContainer" id="uk">
                     <div className="locationsContent">
                         <p className="locationsTitle">United Kingdom</p>
-
                         <div className="adressContainer">
                             <div className="adressContent">
                                 <p className="adressTitle">Designo UK Office</p>
@@ -85,11 +78,10 @@ export default function locations() {
                             <div className="adressContent">
                                 <p className="adressTitle">Contact</p>
                                 <p>P : 078 3115 1400</p>
-                                <p>M : contact@designo.uk</p>
+                                <p>M : contact..designo.uk</p>
                             </div>
                         </div>
                     </div>
-
                     <picture className="locationsPictureContainer">
                         <source media="(max-width: 768px)" srcSet="/assets/locations/tablet/image-map-uk.png" className="locationsImage"/>
                         <Image
@@ -102,9 +94,7 @@ export default function locations() {
                     </picture>
                 </div>
             </div>
-
             <Footer />
-
         </div>
     )
 }
