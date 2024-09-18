@@ -1,0 +1,321 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    align-items: center;
+    padding: 0 150px;
+    position: relative;
+    overflow: hidden
+}
+
+.backgroundImageLeft {
+    position: absolute;
+    left: 0;
+    top: 500px;
+    z-index: -1;
+}
+
+.backgroundImageRight {
+    position: absolute;
+    right: -400px;
+    top: 1800px;
+    z-index: -1;
+    transform: rotate(180deg);
+  }
+  
+
+.aboutHero {
+    display: flex;
+    width: 100%;
+    max-width: 1440px;
+}
+
+.aboutHeroContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E7816B;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-image: url("/assets/about/desktop/bg-pattern-hero-about-desktop.svg");
+    background-position: center left 25px;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.aboutHeroContent {
+    display: flex;
+    flex-direction: column;
+    color : #fff;
+    width: 70%;
+    gap: 30px;
+}
+
+.aboutHeroImage {
+    width: 50%;
+    height: 480px;
+    object-fit: cover;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.aboutHeroTitle {
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.aboutExpertise {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1440px;
+    padding: 170px 0 80px 0;
+}
+
+.aboutExpertiseContainer {
+    display: flex;
+    justify-content: center;
+    background-color: #FDF3F0;
+    height: 640px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-image: url("/assets/shared/desktop/bg-pattern-three-circles.svg");
+    background-repeat:no-repeat;
+    background-position: bottom right 230px;
+}
+
+.aboutExpertiseImage {
+    width: 50%;
+    height: 640px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    object-fit: cover;
+}
+
+.aboutExpertiseContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    height: 640px;
+    gap: 20px;
+}
+
+.aboutExpertiseTitle {
+    font-size: 40px;
+    color: #E7816B;
+    font-weight: 500;
+
+}
+
+.aboutInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1440px;
+    padding: 80px 0 390px 0;
+}
+
+.aboutInfoContainer {
+    display: flex;
+    justify-content: center;
+    background-color: #FDF3F0;
+    height: 640px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-image: url("/assets/shared/desktop/bg-pattern-three-circles.svg");
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+
+.aboutInfoImage {
+    width: 50%;
+    height: 640px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    object-fit: cover;
+}
+
+.aboutInfoContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    height: 640px;
+    gap: 20px;
+}
+
+.aboutInfoTitle {
+    font-size: 40px;
+    color: #E7816B;
+    font-weight: 500;
+
+}
+
+@media screen and (min-width: 1441px) {
+    .backgroundImageRight {
+        right: 0;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .about {
+        padding: 0 40px;
+    }
+
+    .backgroundImageLeft {
+        display: none;
+    }
+    .backgroundImageRight {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .aboutHero {
+        flex-direction: column-reverse;
+        height: 630px;
+    }
+
+    .aboutHeroImage {
+        width: 100%;
+        border-bottom-right-radius: 0;
+        border-top-left-radius: 15px;
+        height: 50%;
+    }
+
+    .aboutHeroContainer {
+        border-top-left-radius: 0;
+        border-bottom-right-radius: 15px;
+        height: 50%;
+        background-position: bottom 100px right 200px;
+    }
+
+    .aboutHeroContent {
+        align-items: center;
+        text-align: center;
+        width: 87%;
+    }
+
+    .aboutExpertise {
+        flex-direction: column;
+        padding: 0;
+        margin: 100px 0;
+        height: auto;
+        min-height: 735px;
+    }
+
+    .aboutExpertiseImage {
+        width: 100%;
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 15px;
+        height: 320px;
+    }
+
+    .aboutExpertiseContainer {
+        border-bottom-left-radius: 15px;
+        border-top-right-radius: 0;
+        height: auto;
+        padding: 50px 20px;
+        background-position: center bottom 30px;
+    }
+
+    .aboutExpertiseContent {
+        height: auto;
+        width: 80%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .aboutInfo {
+        flex-direction: column-reverse;
+        padding: 30px 0 360px 0;
+        margin: 0;
+        height: auto;
+        min-height: 735px;
+    }
+    
+    .aboutInfoImage {
+        width: 100%;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        border-top-left-radius: 15px;
+        height: 320px;
+    }
+    
+    .aboutInfoContainer {
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        height: auto;
+        padding: 50px 20px;
+        background-position: center bottom 30px;
+    }
+    
+    .aboutInfoContent {
+        height: auto;
+        width: 80%;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .about {
+        padding: 0 ;
+    }
+
+    .aboutHero {
+        height: 715px;
+    }
+
+    .aboutHeroImage,
+    .aboutExpertiseImage,
+    .aboutInfoImage {
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+
+    .aboutHeroContainer {
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        background-position: bottom 235px left 75px;
+        background-size: 80%;
+        height: auto;
+        min-height: 55%;
+    }
+
+    .aboutHeroContent {
+        gap: 20px;
+    }
+
+    .aboutHeroTitle,
+    .aboutExpertiseTitle,
+    .aboutInfoTitle {
+        font-size: 32px;
+    }
+
+    .aboutHeroText,
+    .aboutExpertiseText,
+    .aboutInfoText {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+
+    }
+
+    .aboutExpertise {
+        margin: 0;
+    }
+
+    .aboutExpertiseContainer,
+    .aboutInfoContainer {
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        background-position: center left;
+        padding: 80px 0;
+    }
+}
